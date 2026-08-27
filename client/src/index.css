@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+@theme inline { --font-sans: 'DM Sans', sans-serif; --font-display: 'Barlow Condensed', sans-serif; --color-background: #11100f; --color-foreground: #fff8ed; --color-card: #1b1917; --color-card-foreground: #fff8ed; --color-primary: #ff9d1e; --color-primary-foreground: #17110b; --color-border: rgba(255,255,255,.12); }
+:root { font-family: 'DM Sans', sans-serif; color: #fff8ed; background: #11100f; font-synthesis: none; text-rendering: optimizeLegibility; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: #11100f; }
+.font-display { font-family: 'Barlow Condensed', sans-serif; }
+button, a { transition: transform .18s cubic-bezier(.23,1,.32,1), background-color .18s ease, border-color .18s ease, color .18s ease; }
+button:active, a:active { transform: scale(.97); }
+::selection { color: #17110b; background: #ff9d1e; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; } }
