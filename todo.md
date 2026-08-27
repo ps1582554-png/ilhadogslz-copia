@@ -80,9 +80,9 @@
 - [x] Registrar que este projeto é uma cópia independente, sem continuidade automática de tarefas do projeto de origem
 - [x] Confirmar o escopo funcional atualmente presente: cardápio exclusivo de hot dogs, pedidos por WhatsApp, painel administrativo protegido e upload de imagens
 - [x] Confirmar a base técnica atualmente presente: React 19, Tailwind 4, Express 4, tRPC 11, Drizzle ORM/MySQL e Manus OAuth
-- [ ] Aguardar a próxima solicitação do usuário antes de iniciar novas alterações nesta cópia
+- [x] Aguardar a próxima solicitação do usuário antes de iniciar novas alterações nesta cópia
 
 > Os itens herdados do projeto de origem permanecem como histórico; nenhuma nova tarefa será executada sem solicitação explícita.
 
 - [x] Conectar esta cópia independente ao GitHub e verificar o resultado da integração
-- [ ] Criar um repositório privado no GitHub para esta cópia e enviar o código atual
+- [x] Criar um repositório privado no GitHub para esta cópia e enviar o código atual
